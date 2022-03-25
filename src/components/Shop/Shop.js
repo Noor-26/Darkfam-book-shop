@@ -1,8 +1,13 @@
-import Books from '../Books/Books';
-import './Shop.css'
-
+import  { useState,useEffect } from 'react';
+import './Shop.css';
 
 const Shop = () => {
+    const [books, setbooks] = useState([])
+    useEffect(() => {
+       fetch('books.json')
+       .then(res => res.json())
+       .then(data => setbooks(data))
+      }, [books])
     return (
         <div className="shop-container">
             <div className="book-container ">
