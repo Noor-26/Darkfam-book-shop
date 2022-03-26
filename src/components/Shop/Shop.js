@@ -1,12 +1,15 @@
 import  { useState,useEffect } from 'react';
 import Books from '../Books/Books';
+import Selected from '../Selected/Selected';
 import './Shop.css'
 
 
 const Shop = () => {
     const [books, setbooks] = useState([])
-    const showSelectBook = id=>{
-        console.log(id)
+    const [selectBook,setSelectBook] = useState([])
+    const showSelectBook = book =>{
+        const newBook = [...selectBook,book]
+        setSelectBook(newBook)
       }
     useEffect(() => {
        fetch('books.json')
@@ -25,6 +28,7 @@ const Shop = () => {
             </div>
             <div className="select-container">
                 <h1>select books</h1>
+                <p>length : {selectBook.length}</p>
             </div>
         </div>
     );

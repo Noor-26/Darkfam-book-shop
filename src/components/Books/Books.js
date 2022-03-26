@@ -1,4 +1,6 @@
 import React from 'react';
+import { BsFillCartFill} from 'react-icons/bs'
+import './Books.css'
 
 const Books = ({data,showSelectBook}) => {
   
@@ -9,8 +11,8 @@ const Books = ({data,showSelectBook}) => {
      <img src={img} className="card-img-top img-fluid" alt="" />
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
-        <p className="card-text">{price}</p>
-        <button onClick={() => showSelectBook(name)}>Select it</button>
+        <p className="card-text">price : {price}</p>
+        <button onClick={() => showSelectBook(data)}>Select it <BsFillCartFill/> </button>
       </div>
     </div>
         </div>

@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Selected = () => {
+const Selected = ({book}) => {
+   const {img,name} = book
     return (
-        <div>
-            
+        <div className="selected items">
+            <img src={img} alt="" />
+            <h4>{name}</h4>
         </div>
     );
 };
