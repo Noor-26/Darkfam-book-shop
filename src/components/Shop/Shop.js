@@ -5,6 +5,9 @@ import './Shop.css'
 
 const Shop = () => {
     const [books, setbooks] = useState([])
+    const showSelectBook = id=>{
+        console.log(id)
+      }
     useEffect(() => {
        fetch('books.json')
        .then(res => res.json())
@@ -12,11 +15,13 @@ const Shop = () => {
       }, [books])
     return (
         <div className="shop-container">
-            <div className="book-container row row-cols-1 row-cols-md-3 g-4">
+            <div >
                 <h1>book container</h1>
+                <div className="book-container row row-cols-1 row-cols-md-3 g-4 container">
             {
-            books.map(book => <Books data={book}></Books>)
+            books.map(book => <Books data={book} key={book.id} showSelectBook={showSelectBook}></Books>)
             }
+            </div>
             </div>
             <div className="select-container">
                 <h1>select books</h1>

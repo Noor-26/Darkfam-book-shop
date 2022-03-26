@@ -3,10 +3,12 @@
     display: flex;
 }
 .book-container{
-    width: 80%;
+    width: 100%;
+    border:2px solid red;
 }
 .select-container{
  width:20%;
+ border: 2px solid black;
 }
 
 @media (max-width:550px) {
