@@ -7,62 +7,50 @@
     },
     {
         "id":2,
-        "name": "The Power of your Subconscious Mind Price in India",
-        "price" :99,
-        "img":"https://images-na.ssl-images-amazon.com/images/I/51QTTApN-XL._SX220_.jpg"
+        "name": "The Book world",
+        "price" :200,
+        "img":"https://images-na.ssl-images-amazon.com/images/I/8160PAbbKqL.jpg"
     },
     {
         "id":3,
-        "name": "The Power of your Subconscious Mind Price in India",
-        "price" :99,
-        "img":"https://images-na.ssl-images-amazon.com/images/I/51QTTApN-XL._SX220_.jpg"
+        "name": "The lord of the rings",
+        "price" :99.98,
+        "img":"https://orion-uploads.openroadmedia.com/sm_f7e651-tolkien-lordoftherings.jpg"
     },
     {
         "id":4,
-        "name": "The Power of your Subconscious Mind Price in India",
-        "price" :99,
-        "img":"https://images-na.ssl-images-amazon.com/images/I/51QTTApN-XL._SX220_.jpg"
+        "name": "New of the world",
+        "price" :800,
+        "img":"https://www.washingtonpost.com/graphics/entertainment/2016-best-books/img/news-of-the-world.jpg"
     },
     {
         "id":5,
-        "name": "The Power of your Subconscious Mind Price in India",
-        "price" :99,
-        "img":"https://images-na.ssl-images-amazon.com/images/I/51QTTApN-XL._SX220_.jpg"
+        "name": "Herper Lee",
+        "price" :99.34,
+        "img":"https://cdn.britannica.com/21/182021-050-666DB6B1/book-cover-To-Kill-a-Mockingbird-many-1961.jpg?q=60"
     },
     {
         "id":6,
-        "name": "The Power of your Subconscious Mind Price in India",
-        "price" :99,
-        "img":"https://images-na.ssl-images-amazon.com/images/I/51QTTApN-XL._SX220_.jpg"
+        "name": "Kite Runner",
+        "price" :12.34,
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8fLDVgFv9cSmQPtry_HTFAEsKMKLNB_IXcw&usqp=CAU"
     },
     {
         "id":7,
-        "name": "The Power of your Subconscious Mind Price in India",
-        "price" :99,
-        "img":"https://images-na.ssl-images-amazon.com/images/I/51QTTApN-XL._SX220_.jpg"
+        "name": "The Hobbit",
+        "price" :14.64,
+        "img":"https://cdn.lifehack.org/wp-content/uploads/2015/03/Hobbit_book.jpg"
     },
     {
         "id":8,
-        "name": "The Power of your Subconscious Mind Price in India",
-        "price" :99,
-        "img":"https://images-na.ssl-images-amazon.com/images/I/51QTTApN-XL._SX220_.jpg"
+        "name": "Leave the world behind",
+        "price" :15.75,
+        "img":"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1598367321-41XVHkxO2JL.jpg"
     },
     {
         "id":9,
-        "name": "The Power of your Subconscious Mind Price in India",
-        "price" :99,
-        "img":"https://images-na.ssl-images-amazon.com/images/I/51QTTApN-XL._SX220_.jpg"
-    },
-    {
-        "id":10,
-        "name": "The Power of your Subconscious Mind Price in India",
-        "price" :99,
-        "img":"https://images-na.ssl-images-amazon.com/images/I/51QTTApN-XL._SX220_.jpg"
-    },
-    {
-        "id":11,
-        "name": "The Power of your Subconscious Mind Price in India",
-        "price" :99,
-        "img":"https://images-na.ssl-images-amazon.com/images/I/51QTTApN-XL._SX220_.jpg"
+        "name": "Wings of fire",
+        "price" :83.64,
+        "img":"https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2018/05/21035708/51QSrQDru9L._SX342_BO1204203200_-207x300.jpg"
     }
 ]
