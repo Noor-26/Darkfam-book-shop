@@ -8,7 +8,15 @@
 .select-container{
  width:20%;
 }
+.buttons{
+    display:flex;
+    flex-direction:column;
 
+}
+.selected-btn{
+    background-color:white;
+    border: 2px solid black;
+}
 @media (max-width:550px) {
     .shop-container{
     flex-direction: column;
