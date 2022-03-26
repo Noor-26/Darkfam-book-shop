@@ -6,10 +6,11 @@ import './Shop.css'
 
 const Shop = () => {
     const [books, setbooks] = useState([])
-    const [selectBook,setSelectBook] = useState([])
+    const [selectBooks,setSelectBook] = useState([])
     const showSelectBook = book =>{
-        const newBook = [...selectBook,book]
+        const newBook = [...selectBooks,book]
         setSelectBook(newBook)
+        
       }
     useEffect(() => {
        fetch('books.json')
@@ -28,7 +29,12 @@ const Shop = () => {
             </div>
             <div className="select-container">
                 <h1>select books</h1>
-                <p>length : {selectBook.length}</p>
+                {
+                    selectBooks.map(selectBook =>  <Selected book={selectBook}></Selected>)
+                    console.log(selectBooks)
+                }
+               
+
             </div>
         </div>
     );

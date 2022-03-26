@@ -8,11 +8,14 @@ const Books = ({data,showSelectBook}) => {
     return (
         <div className="col ">
     <div className="card h-100">
-     <img src={img} className="card-img-top img-fluid" alt="" />
+      <div className="container">
+
+     <img src={img} className="card-img-top book-img  img-fluid" alt="" />
+      </div>
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
         <p className="card-text">price : {price}</p>
-        <button onClick={() => showSelectBook(data)}>Select it <BsFillCartFill/> </button>
+        <button className="card-btn" onClick={() => showSelectBook(data)}>Select it <BsFillCartFill/> </button>
       </div>
     </div>
         </div>
