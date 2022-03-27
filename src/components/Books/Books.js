@@ -14,9 +14,9 @@ const Books = ({data,showSelectBook}) => {
       </div>
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
-        <p className="card-text">price : {price}</p>
-        <button className="card-btn" onClick={() => showSelectBook(data)}>Select it <BsFillCartFill/> </button>
+        <p className="card-text">price : ${price}</p>
       </div>
+        <button className="card-btn mx-auto my-2" onClick={() => showSelectBook(data)}>Select it <BsFillCartFill/> </button>
     </div>
         </div>
     );
